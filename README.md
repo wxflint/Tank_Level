@@ -24,12 +24,11 @@ Upload the code contained in this sketch on to your board
 
 Folder structure
 
-
 Pressure_TankLevel_Web Arduino sketch folder
 Pressure_TankLevel_Web.ino  main Arduino file
 pressure.png  an image of the required schematics
 index1.html  web file script goes in data folder
-ReadMe.adoc   ReadMe
+
 
 
 === License
