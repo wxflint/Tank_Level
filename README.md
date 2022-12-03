@@ -22,15 +22,6 @@ Step 3: Load the code
 
 Upload the code contained in this sketch on to your board
 
-Folder structure
-
-Pressure_TankLevel_Web Arduino sketch folder
-Pressure_TankLevel_Web.ino  main Arduino file
-pressure.png  an image of the required schematics
-index1.html  web file script goes in data folder
-
-
-
 === License
 This project is released under a Public Domain License.
 
@@ -41,11 +32,11 @@ Please do.
 
 
 |===
-| ID | Part name      | Part number       | Quantity
-| R1 | Pressure Sensor| ASIN:B074QPD5RT   | 1
-| L1 | Node MCU 2.0V  | ASIN:B010O1G1ES   | 1
-| A1 | Relay          | ASIN:B0798CZDR9   | 1
-|===
+
+Pressure Sensor| ASIN:B074QPD5RT
+Node MCU 2.0V ASIN:B010O1G1ES
+Relay: ASIN:B0798CZDR9
+
 
 === CHANGE LOG ===
 V1.4 Added Start/Stop/Alarm SetPoints Code to turn pump on and off
