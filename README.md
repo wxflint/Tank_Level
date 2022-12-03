@@ -24,19 +24,19 @@ Upload the code contained in this sketch on to your board
 
 Folder structure
 
-....
+
 Pressure_TankLevel_Web  => Arduino sketch folder
 Pressure_TankLevel_Web.ino  => main Arduino file
 pressure.png => an image of the required schematics
 index1.html => web file script goes in data folder
 ReadMe.adoc  => ReadMe
-....
+
 
 === License
 This project is released under a Public Domain License.
 
 === Contributing
-To contribute to this project please contact wxflint https://id.arduino.cc/wxflint
+Please do.
 
 === BOM Amazon Part Numbers
 
