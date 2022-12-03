@@ -30,14 +30,10 @@ Please do.
 
 === BOM Amazon Part Numbers
 
-
-|===
-
 Pressure Sensor| ASIN:B074QPD5RT
 Node MCU 2.0V ASIN:B010O1G1ES
 Relay: ASIN:B0798CZDR9
 
-
-=== CHANGE LOG ===
+CHANGE LOG
 V1.4 Added Start/Stop/Alarm SetPoints Code to turn pump on and off
 
