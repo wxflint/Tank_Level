@@ -44,6 +44,25 @@ Node MCU 2.0V ASIN:B010O1G1ES
 Relay: ASIN:B0798CZDR9
 
 
-CHANGE LOG
-V1.4 Added Start/Stop/Alarm SetPoints Code to turn pump on and off
+## Change log
 
+### V1.4
+- Added Start/Stop/Alarm setpoint code to turn the pump on and off.
+
+### Recent cleanup
+- Made the ESP8266 sketch more reliable by removing the blocking 5-second delay from the main loop.
+- Added a WiFi connection timeout so the board won’t hang forever if the network is unavailable.
+- Added SPIFFS startup checking so file-system problems are easier to spot.
+- Cleaned up relay control and sensor timing logic.
+- Fixed type usage in the sketch so sensor and threshold values are handled more consistently.
+- Cleaned up the HTML template so it has valid IDs, better alarm/pump messaging, and safer template-variable handling.
+- Fixed invalid CSS and HTML structure issues in the web page.
+
+## What changed and why
+
+The recent cleanup was focused on making the project easier to maintain and less likely to misbehave in normal use.
+
+- The web server now stays responsive because sensor reading no longer blocks the loop.
+- Startup is safer because WiFi and SPIFFS failures are reported instead of being ignored.
+- The web page is cleaner and more reliable because it no longer depends on duplicate element IDs or missing targets.
+- The tank level display is still based on the same template variables, so the existing behavior remains familiar while the implementation is more robust.
